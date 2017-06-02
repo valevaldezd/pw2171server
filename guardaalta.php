@@ -1,7 +1,7 @@
 <?php
 	include("utilerias.php"); //include= incluye todo el documento importado - requiere= solo incluye lo que necesitas D:
 	$conexion = conecta();
-	
+
 	$u= GetSQLValueString($_POST["txtUsuario"],"text");
 	$n= GetSQLValueString($_POST["txtNombre"], "text");
 	$c= GetSQLValueString(md5($_POST["txtClave"]), "text");

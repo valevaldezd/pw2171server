@@ -1,5 +1,5 @@
 <?php
-	
+
 	include("utilerias.php");
 
 	function validausuario($usuario,$clave){
@@ -23,7 +23,7 @@
 			print("<a href='cambio.php'>Cambio</a> <br>");
 			print("<a href='consultas.php'>Consulta</a> <br>");
 			//print("Bienvenido ".$usuario." :3");
-		} 
+		}
 		else{
 			print("Usuario y/o contraseña incorrectos! D:");
 		}
